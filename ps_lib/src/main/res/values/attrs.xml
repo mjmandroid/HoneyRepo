@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LibLinePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="libcentered" />
+        <!-- Color of the unselected lines that represent the pages. -->
+        <attr name="libunselectedColor" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="libselectedColor" />
+        <!-- Width of each indicator line. -->
+        <attr name="liblineWidth" format="dimension" />
+        <!-- Width of each indicator line's stroke. -->
+        <attr name="libstrokeWidth" />
+        <!-- Width of the gap between each indicator line. -->
+        <attr name="libgapWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="WaveSideBarView">
+        <attr name="sidebarTextColor" format="color|reference"/>
+        <attr name="sidebarBackgroundColor" format="color|reference"/>
+        <attr name="sidebarChooseTextColor" format="color|reference"/>
+        <attr name="sidebarTextSize" format="dimension"/>
+        <attr name="sidebarLargeTextSize" format="dimension"/>
+        <attr name="sidebarRadius" format="dimension"/>
+        <attr name="sidebarBallRadius" format="dimension"/>
+    </declare-styleable>
+</resources>

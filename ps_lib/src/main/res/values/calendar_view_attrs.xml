@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="lib_MaterialCalendarView">
+
+        <attr name="lib_mcv_dateTextAppearance" format="reference" />
+        <attr name="lib_mcv_weekDayTextAppearance" format="reference" />
+        <attr name="lib_mcv_headerTextAppearance" format="reference" />
+
+        <attr name="lib_mcv_arrowColor" format="color" />
+        <attr name="lib_mcv_leftArrowMask" format="reference" />
+        <attr name="lib_mcv_rightArrowMask" format="reference" />
+        <attr name="lib_mcv_selectionColor" format="color" />
+
+        <attr name="lib_mcv_showOtherDates" format="integer">
+            <flag name="none" value="0" />
+            <flag name="other_months" value="1" />
+            <flag name="out_of_range" value="2" />
+            <flag name="decorated_disabled" value="4" />
+            <flag name="defaults" value="4" />
+            <flag name="all" value="7" />
+        </attr>
+
+        <attr name="lib_mcv_allowClickDaysOutsideCurrentMonth" format="boolean" />
+
+        <attr name="lib_mcv_weekDayLabels" format="reference" />
+        <attr name="lib_mcv_monthLabels" format="reference" />
+
+        <attr name="lib_mcv_tileSize" format="dimension" />
+        <attr name="lib_mcv_tileHeight" format="dimension" />
+        <attr name="lib_mcv_tileWidth" format="dimension" />
+
+        <attr name="lib_mcv_topbarVisible" format="boolean" />
+
+        <attr name="lib_mcv_firstDayOfWeek" format="enum">
+            <enum name="sunday" value="1" />
+            <enum name="monday" value="2" />
+            <enum name="tuesday" value="3" />
+            <enum name="wednesday" value="4" />
+            <enum name="thursday" value="5" />
+            <enum name="friday" value="6" />
+            <enum name="saturday" value="7" />
+        </attr>
+
+        <attr name="lib_mcv_calendarMode" format="enum">
+            <enum name="month" value="0" />
+            <enum name="week" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

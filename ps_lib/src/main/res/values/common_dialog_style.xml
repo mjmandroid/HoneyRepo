@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="lib_common_tip_dialog_theme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 弹窗主布局背景样式 -->
+        <item name="lib_dialog_bg_weight">300dp</item>
+        <item name="lib_dialog_bg">@drawable/lib_bg_rounded_box</item>
+        <!-- 弹窗标题样式 -->
+        <item name="lib_dialog_title_bg">@android:color/transparent</item>
+        <item name="lib_dialog_title_text_color">#212121</item>
+        <item name="lib_dialog_title_text_size">18dp</item>
+        <!-- 弹窗内容样式 -->
+        <item name="lib_dialog_content_bg">@android:color/transparent</item>
+        <item name="lib_dialog_content_text_color">#212121</item>
+        <item name="lib_dialog_content_text_size">14dp</item>
+        <!-- 弹窗checkbox样式 -->
+        <item name="lib_dialog_checkbox_ignore_text_color">#cccccc</item>
+        <item name="lib_dialog_checkbox_ignore_text">&#160;&#160;不再显示此提示</item>
+        <item name="lib_dialog_checkbox_ignore_button">@drawable/lib_btn_ck_selector</item>
+        <item name="lib_dialog_checkbox_ignore_text_size">14dp</item>
+        <!-- 弹窗button上方分割线样式 -->
+        <item name="lib_dialog_line_bg">#e6e6e6</item>
+        <item name="lib_dialog_line_height">0.5dp</item>
+        <!-- 弹窗Button父布局样式 -->
+        <item name="lib_dialog_button_parent_bg">@android:color/transparent</item>
+        <item name="lib_dialog_button_parent_height">55dp</item>
+        <item name="lib_dialog_button_parent_divider">@drawable/lib_horizontal_divider_line</item>
+        <!-- 弹窗取消Button布局样式 -->
+        <item name="lib_dialog_cancel_button_bg">@drawable/lib_bg_bottom_left_rounded_box_selector</item>
+        <item name="lib_dialog_single_cancel_button_bg">@drawable/lib_bg_bottom_rounded_box_selector</item>
+        <item name="lib_dialog_cancel_button_text_size">19dp</item>
+        <item name="lib_dialog_cancel_button_text_color">#212121</item>
+        <!-- 弹窗确认Button布局样式 -->
+        <item name="lib_dialog_confirm_button_bg">@drawable/lib_bg_bottom_right_rounded_box_selector</item>
+        <item name="lib_dialog_single_confirm_button_bg">@drawable/lib_bg_bottom_rounded_box_selector</item>
+        <item name="lib_dialog_confirm_button_text_size">19dp</item>
+        <item name="lib_dialog_confirm_button_text_color">#FFC61A</item>
+    </style>
+</resources>

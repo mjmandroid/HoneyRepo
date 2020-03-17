@@ -1,0 +1,22 @@
+<resources>
+    <string name="lib_app_name">pslib</string>
+    <string name="lib_common_not_data">没有找到相关记录</string>
+    <string name="lib_common_service_tips">哎呀，加载出错了～</string>
+    <string name="lib_common_not_net">网络不给力</string>
+    <string name="lib_common_click_screen">点击屏幕刷新，重新尝试。</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="setting">设置</string>
+    <string name="version_is_new">您的版本是最新的</string>
+    <string name="software_is_update">正在更新中</string>
+    <string name="version_update">版本更新</string>
+    <string name="update">更新</string>
+    <string name="permission_limit_tip">权限已被拒绝,去设置中打开!</string>
+    <string name="permission_close_tip">权限已关闭,去设置中打开!</string>
+    <string name="permission_apply_fail">权限申请失败!</string>
+    <string name="ensure">确定</string>
+    <string name="null_gathering_account">暂无收款账户</string>
+    <string name="download_fail">下载失败</string>
+    <string name="download_success_tip">下载完成，点击安装</string>
+    <string name="downing">正在下载中：</string>
+</resources>

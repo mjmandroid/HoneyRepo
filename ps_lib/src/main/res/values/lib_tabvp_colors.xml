@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深颜色分割线 -->
+    <color name="lib_tabvp_dividing_line_dark">#cccccc</color>
+    <color name="lib_tabvp_tab_selected">#f1ede1</color>
+</resources>

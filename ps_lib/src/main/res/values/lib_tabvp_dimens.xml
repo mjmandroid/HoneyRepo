@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--materialtabs start-->
+    <dimen name="lib_tabvp_tabhostHeight">48dp</dimen>
+    <dimen name="lib_tabvp_tabSelectorHeight">2dp</dimen>
+    <dimen name="lib_tabvp_materialTextTab">14dp</dimen>
+    <!--materialtabs end-->
+</resources>

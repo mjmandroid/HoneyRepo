@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="lib_reload_tips_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="lib_reload_empty">@drawable/empty_express_image</item>
+        <item name="lib_reload_no_network">@drawable/nonetwork_express_image</item>
+        <item name="lib_reload_failure">@drawable/crash</item>
+        <item name="lib_reload_empty_tips">@string/lib_common_not_data</item>
+        <item name="lib_reload_failure_tips">@string/lib_common_service_tips</item>
+        <item name="lib_reload_nonetwork_tips">@string/lib_common_not_net</item>
+        <item name="lib_reload_retry_text">@string/lib_common_click_screen</item>
+        <item name="lib_reload_tips1_textcolor">#212121</item>
+        <item name="lib_reload_tips1_textsize">17dp</item>
+        <item name="lib_reload_tips1_bg">#eaeaea</item>
+        <item name="lib_reload_tips1_margin">0dp</item>
+        <item name="lib_reload_tips2_textcolor">#ababab</item>
+        <item name="lib_reload_tips2_textsize">17dp</item>
+        <item name="lib_reload_tips2_bg">#eaeaea</item>
+        <item name="lib_reload_tips2_margin">0dp</item>
+        <item name="lib_reload_retry_textcolor">#ababab</item>
+        <item name="lib_reload_retry_textsize">13dp</item>
+        <item name="lib_reload_retry_bg">#eaeaea</item>
+        <item name="lib_reload_retry_margin">12dp</item>
+        <item name="lib_reload_tips2_desc_textsize">13dp</item>
+        <item name="lib_reload_tips2_desc_textcolor">#ababab</item>
+        <item name="lib_reload_tips2_desc_bg">#eaeaea</item>
+        <item name="lib_reload_tips2_desc_margin">0dp</item>
+        <item name="lib_reload_loading_bg">@drawable/lib_loading_anim</item>
+        <item name="lib_reload_customloading_view">-1</item>
+    </style>
+</resources>

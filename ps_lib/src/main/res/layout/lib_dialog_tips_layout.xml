@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="?attr/lib_dialog_bg_weight"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_22"
+        android:background="?attr/lib_dialog_bg">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_19"
+            android:background="?attr/lib_dialog_title_bg"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="?attr/lib_dialog_title_text_size"
+            android:visibility="gone"
+            tools:visibility="visible"
+            tools:text="标题"/>
+
+        <ScrollView
+            android:id="@+id/svMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/lib_dialog_content_bg"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="5dip"
+                android:textSize="?attr/lib_dialog_content_text_size"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="内容"/>
+        </ScrollView>
+
+        <CheckBox
+            android:id="@+id/cb_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:button="?attr/lib_dialog_checkbox_ignore_button"
+            android:text="?attr/lib_dialog_checkbox_ignore_text"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/left_right_space"
+            android:layout_marginRight="@dimen/left_right_space"
+            android:textSize="?attr/lib_dialog_checkbox_ignore_text_size"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/lib_dialog_line_height"
+            android:background="?attr/lib_dialog_line_bg"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/dialog_lly"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/lib_dialog_button_parent_height"
+            android:layout_gravity="bottom"
+            android:background="?attr/lib_dialog_button_parent_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:divider="?attr/lib_dialog_button_parent_divider"
+            android:showDividers="middle"
+            android:weightSum="2"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/lib_dialog_cancel_button_bg"
+                android:gravity="center"
+                android:textSize="?attr/lib_dialog_cancel_button_text_size"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="取消"/>
+
+            <TextView
+                android:id="@+id/btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/lib_dialog_confirm_button_bg"
+                android:gravity="center"
+                android:textSize="?attr/lib_dialog_confirm_button_text_size"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="确定"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

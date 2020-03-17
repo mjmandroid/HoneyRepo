@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="lib_reload_tips">
+        <!-- 没有记录的图片 -->
+    <attr name="lib_reload_empty" format="reference"/>
+        <!-- 无网络 图片-->
+    <attr name="lib_reload_no_network" format="reference"/>
+        <!-- 请求失败图片 -->
+    <attr name="lib_reload_failure" format="reference"/>
+        <!-- 空记录描述 -->
+    <attr name="lib_reload_empty_tips" format="string|reference"/>
+        <!-- 失败录描述 -->
+    <attr name="lib_reload_failure_tips" format="string|reference"/>
+        <!-- 没网络描述 -->
+    <attr name="lib_reload_nonetwork_tips" format="string|reference"/>
+
+        <!-- 请求重试文字修改 -->
+    <attr name="lib_reload_retry_text" format="string|reference"/>
+
+        <!-- 设置Textview 空记录描述  字体 颜色 背景 margin-->
+    <attr name="lib_reload_tips1_textcolor" format="color|reference"/>
+    <attr name="lib_reload_tips1_textsize" format="dimension|reference"/>
+    <attr name="lib_reload_tips1_bg" format="reference|color"/>
+    <attr name="lib_reload_tips1_margin" format="dimension|reference"/>
+
+        <!-- 设置Textview 默认没显示  字体 颜色 背景 margin-->
+    <attr name="lib_reload_tips2_textcolor" format="reference|color"/>
+    <attr name="lib_reload_tips2_textsize" format="reference|dimension"/>
+    <attr name="lib_reload_tips2_bg" format="reference|color"/>
+    <attr name="lib_reload_tips2_margin" format="reference|dimension"/>
+
+        <!-- 设置Textview 修改点击重试文字  字体 颜色 背景 margin-->
+    <attr name="lib_reload_retry_textcolor" format="color|reference"/>
+    <attr name="lib_reload_retry_textsize" format="dimension|reference"/>
+    <attr name="lib_reload_retry_bg" format="reference|color"/>
+    <attr name="lib_reload_retry_margin" format="dimension|reference"/>
+
+        <!-- 设置Textview 默认没显示  字体 颜色 背景 margin-->
+    <attr name="lib_reload_tips2_desc_textsize" format="dimension|reference"/>
+    <attr name="lib_reload_tips2_desc_textcolor" format="color|reference"/>
+    <attr name="lib_reload_tips2_desc_bg" format="reference|color"/>
+    <attr name="lib_reload_tips2_desc_margin" format="dimension|reference"/>
+
+    <!-- 设置 Loading的 AnimationDrable-->
+    <attr name="lib_reload_loading_bg" format="reference"/>
+
+        <!-- 自定义替换加载中View  -1 代表不传 其他不能传Integer view -->
+    <attr name="lib_reload_customloading_view" format="reference|integer"/>
+        <!-- 项目修改 stley指向，可修改属性值-->
+   <attr name="lib_reload_style" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //1：微信 2：短信 3：微博 4：QQ 5：朋友圈 6：QQ空间 7: 二维码（打开网页，显示二维码）
+    <string-array name="lib_share_name">
+        <item>微信</item>
+        <item>朋友圈</item>
+        <item>一键邀请</item>
+        <item>微博</item>
+        <item>QQ</item>
+        <item>QQ空间</item>
+        <item>短信</item>
+        <item>二维码</item>
+        <item>复制链接</item>
+
+    </string-array>
+
+    <string-array name="lib_share_res_icon">
+        <item>@drawable/lib_discovery_invite_share_wechat</item>
+        <item>@drawable/lib_discovery_invite_share_wechat_friends</item>
+        <item>@drawable/lib_discovery_invite_share_invite</item>
+        <item>@drawable/lib_discovery_invite_share_weibo</item>
+        <item>@drawable/lib_discovery_invite_share_qq</item>
+        <item>@drawable/lib_discovery_invite_share_qqzone</item>
+        <item>@drawable/lib_discovery_invite_share_sms</item>
+        <item>@drawable/lib_discovery_invite_share_code</item>
+        <item>@drawable/lib_discovery_invite_share_link</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lib_title_button_press">#e0e0e0</color>
+    <color name="lib_title_button_default">#00000000</color>
+    <color name="colorPrimary">#ff5555</color>
+    <color name="lib_title_base_background">@color/colorPrimary</color>
+    <color name="lib_title_base_baseline">#c2c2c2</color>
+    <color name="lib_title_base_title_color">@color/white</color>
+    <color name="lib_title_base_button_color">@color/white</color>
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="font_black">#333333</color>
+    <color name="my_root_bj">#f3f5f9</color>
+    <color name="half_60_home_tv">#99232321</color>
+    <color name="text_color">#ff232321</color>
+</resources>

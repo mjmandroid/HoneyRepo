@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.beautystudiocn.allsale.view.ViewPagerFixed
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/tab_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/lib_tabvp_dividing_line_dark"
+        android:layout_above="@+id/rly_tab"/>
+
+    <FrameLayout
+        android:id="@+id/rly_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/iv_indextabbanck"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <!--#ffc400-->
+        <com.beautystudiocn.allsale.widget.tabviewpager.materialtabs.MaterialTabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:accentColor="@color/lib_tabvp_tab_selected"
+            app:clickAnim="true"
+            app:primaryColor="@android:color/white"
+            app:type="icon_text" />
+
+    </FrameLayout>
+</RelativeLayout>

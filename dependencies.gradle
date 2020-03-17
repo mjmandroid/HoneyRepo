@@ -1,0 +1,91 @@
+def supportVersion = "27.1.1"
+
+project.ext {
+    android = [
+            compileSdkVersion: 27,
+            buildToolsVersion: '28.0.1',
+            applicationId    : "com.streaming.better.honey",
+            minSdkVersion    : 21,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+
+    ]
+
+    signing_default = [
+            keyAlias     : 'allsale',
+            keyPassword  : 'dgxm6666',
+            storeFile    : 'allsale.jks',
+            storePassword: 'dgxm6666'
+    ]
+
+    signing_release = [
+            keyAlias     : 'allsale',
+            keyPassword  : 'dgxm6666',
+            storeFile    : 'allsale.jks',
+            storePassword: 'dgxm6666'
+    ]
+
+    dependencies = [
+            //android-support
+            "appcompat-v7"           : "com.android.support:appcompat-v7:${supportVersion}",
+            "support-v4"             : "com.android.support:support-v4:${supportVersion}",
+            "design"                 : "com.android.support:design:${supportVersion}",
+            "recyclerview"           : "com.android.support:recyclerview-v7:${supportVersion}",
+            "cardview"               : "com.android.support:cardview-v7:${supportVersion}",
+            "support-annotations"    : "com.android.support:support-annotations:${supportVersion}",
+            "constraint_layout"      :"com.android.support.constraint:constraint-layout:1.1.3",
+            //multidex
+            "multidex"               : "com.android.support:multidex:1.0.1",
+
+            //compiler
+            "arouter"                : "com.alibaba:arouter-compiler:1.1.4",
+            "arouter-api"            : "com.alibaba:arouter-api:1.2.1.1",
+            "butterknife-compiler"   : "com.jakewharton:butterknife-compiler:8.8.1",
+            "butterknife"            : "com.jakewharton:butterknife:8.8.1",
+            //other
+            "gson"                   : "com.google.code.gson:gson:2.2.2",
+
+            "leakcanary"             : "com.squareup.leakcanary:leakcanary-android:1.5",
+
+            //test
+            "junit"                  : "junit:junit:4.12",
+            "powermock-module-junit4": "org.powermock:powermock-module-junit4:1.6.3",
+            "powermock-api-easymock" : "org.powermock:powermock-api-easymock:1.6.3",
+            "powermock-api-mockito"  : "org.powermock:powermock-api-mockito:1.6.3",
+
+            //rxjava+retrofit
+            "retrofit2"              : "com.squareup.retrofit2:retrofit:2.2.0",
+            "converter-gson"         : "com.squareup.retrofit2:converter-gson:2.0.2",
+            "adapter-rxjava2"        : "com.squareup.retrofit2:adapter-rxjava2:2.3.0",
+            "fastjson"               : "com.alibaba:fastjson:1.2.41",
+            "logger"                 : "com.orhanobut:logger:1.15",
+            "logging-interceptor"    : 'com.squareup.okhttp3:logging-interceptor:3.5.0',
+            "rxandroid"              : "io.reactivex.rxjava2:rxandroid:2.0.1",
+            "rxjava"                 : "io.reactivex.rxjava2:rxjava:2.0.5",//2.1.6
+            //permissions
+            "rxpermissions2"         : 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar',
+
+            //glide
+            "glide"                  : "com.github.bumptech.glide:glide:4.8.0",
+            "glide-compiler"         : "com.github.bumptech.glide:compiler:4.8.0",
+
+            "okhttp3-integration"    : "com.github.bumptech.glide:okhttp3-integration:4.6.1",
+            "okhttp3"                : "com.squareup.okhttp3:okhttp:3.9.0",
+            "okio"                   : "com.squareup.okio:okio:1.14.0",
+            "eventbus"               : "org.greenrobot:eventbus:3.1.1",
+
+            "fastjson_android"       : 'com.alibaba:fastjson:1.1.43.android',
+
+            "statusbarutil"          : 'com.jaeger.statusbarutil:library:1.5.1',
+            "banner"                 : 'com.youth.banner:banner:1.4.10',
+
+            "WXPay"                  :'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+',
+
+            "AndroidAutoSize"        :'me.jessyan:autosize:1.1.2',
+
+            "bugly"                  :'com.tencent.bugly:crashreport:latest.release', //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+
+            "splash"                 : 'com.bigkoo:convenientbanner:2.1.5'
+    ]
+}

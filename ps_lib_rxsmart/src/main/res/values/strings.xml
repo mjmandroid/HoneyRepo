@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RxNetworkLib</string>
+    <string name="rtv_not_net">网络不给力</string>
+    <string name="request_out_of_time">请求超时</string>
+    <string name="connect_error">连接失败</string>
+    <string name="un_know_error">未知错误</string>
+    <string name="rtv_not_data">暂无数据</string>
+    <string name="take_order_time">接单时间</string>
+    <string name="parse_error_tip">解析失败</string>
+</resources>

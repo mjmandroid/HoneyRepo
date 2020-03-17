@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="lib_MothCalendarView">
+        <attr name="lib_selectionNormColor" format="color" />
+        <attr name="lib_selectionPressColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="none"
+    android:scrollbars="none"
+    android:background="@color/my_root_bj"
+    >
+
+    <LinearLayout
+        android:id="@+id/layLMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_60"
+            android:src="@drawable/crash" />
+
+        <TextView
+            android:id="@+id/tvTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/lib_common_service_tips"
+            android:textColor="@color/half_60_home_tv"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tvTips2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/half_60_home_tv"
+            android:textSize="@dimen/sp_17" />
+
+        <TextView
+            android:id="@+id/tvTipsDesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:text="@string/lib_common_click_screen"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/sp13"
+            />
+
+        <TextView
+            android:id="@+id/tvTipsDesc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/sp13" />
+
+        <ImageView
+            android:id="@+id/spinnerImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lib_loading_anim"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>
