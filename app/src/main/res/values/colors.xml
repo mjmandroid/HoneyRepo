@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="province_line_border">#cccccc</color>
+    <color name="white">#ffffff</color>
+    <color name="press">#e8e8e8</color>
+    <color name="text_black_color">#333333</color>
+    <color name="text_line_color">#dfdfdd</color>
+    <color name="text_tips_color">#666666</color>
 </resources>

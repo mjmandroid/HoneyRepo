@@ -32,6 +32,8 @@ dependencies {
     implementation (rootProject.ext.dependencies["butterknife"]){
         exclude group: 'com.android.support'
     }
+    //jsBridge
+    implementation rootProject.ext.dependencies['jsbridge']
 
     implementation (rootProject.ext.dependencies["glide"]){
         exclude group : 'com.squareup.okhttp3'

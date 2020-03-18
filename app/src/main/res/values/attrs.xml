@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RollViewPager">
+        <attr name="rollviewpager_hint_mode">
+            <enum name="point" value="0" />
+            <enum name="number" value="1" />
+        </attr>
+        <attr name="rollviewpager_hint_gravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+
+        <attr name="rollviewpager_hint_paddingRight" format="dimension" />
+        <attr name="rollviewpager_hint_paddingLeft" format="dimension" />
+        <attr name="rollviewpager_hint_paddingTop" format="dimension" />
+        <attr name="rollviewpager_hint_paddingBottom" format="dimension" />
+
+        <attr name="rollviewpager_play_delay" format="integer" />
+        <attr name="rollviewpager_hint_color" format="color" />
+        <attr name="rollviewpager_hint_alpha" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="customImageViewStyle" format="reference" />
+    </declare-styleable>
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="CustomImageView">
+        <attr name="circle" format="boolean" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveSideBarView">
+        <attr name="sidebarTextColor" format="color|reference"/>
+        <attr name="sidebarBackgroundColor" format="color|reference"/>
+        <attr name="sidebarChooseTextColor" format="color|reference"/>
+        <attr name="sidebarTextSize" format="dimension"/>
+        <attr name="sidebarLargeTextSize" format="dimension"/>
+        <attr name="sidebarRadius" format="dimension"/>
+        <attr name="sidebarBallRadius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlideLockView">
+        <attr name="lock_drawable" format="reference"/>
+        <attr name="lock_radius" format="dimension|reference"/>
+        <attr name="lock_tips_tx" format="string|reference"/>
+        <attr name="locl_tips_tx_size" format="dimension|reference"/>
+        <attr name="lock_tips_tx_color" format="color|reference"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeFlingAdapterView">
+        <attr name="SwipeFlingStyle" format="reference" />
+        <attr name="rotation_degrees" format="float" />
+        <attr name="min_adapter_stack" format="integer" />
+        <attr name="max_visible" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="NiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+
+    <!-- slide bar 有效内容背景 -->
+    <attr name="backgroundColor" format="color|reference" />
+    <!-- slide bar　描边 -->
+    <attr name="strokeColor" format="color|reference" />
+    <!-- slide bar　描边宽度 -->
+    <attr name="strokeWidth" format="dimension" />
+    <!-- slide bar 文字颜色 -->
+    <attr name="textColor" format="color|reference" />
+    <!-- slide bar　文字大小 -->
+    <attr name="textSize" format="dimension" />
+    <!-- slide bar 选中文字颜色 -->
+    <attr name="selectTextColor" format="color|reference" />
+    <!-- slide bar 选中文字大小 -->
+    <attr name="selectTextSize" format="dimension" />
+    <!-- slide bar　选中时候提示文字颜色 -->
+    <attr name="hintTextColor" format="color|reference" />
+    <!-- slide bar　选中时候提示文字大小 -->
+    <attr name="hintTextSize" format="dimension" />
+    <!-- slide bar　选中时候提示圆形半径 -->
+    <attr name="hintCircleRadius" format="dimension" />
+    <!-- slide bar　选中时候提示圆形颜色 -->
+    <attr name="hintCircleColor" format="color|reference" />
+    <!-- slide bar　选中时候圆形颜色 -->
+    <attr name="highLightCircleColor" format="color|reference" />
+    <!-- slide bar　选中时候提示背景形状 -->
+    <attr name="hintShape" format="enum" >
+        <enum name="circle" value="0" />
+        <enum name="rectangle" value="1" />
+    </attr>
+    <!-- slide bar　选中时候波浪颜色 -->
+    <attr name="waveColor" format="color|reference" />
+    <!-- slide bar　选中时候波浪半径 -->
+    <attr name="waveRadius" format="dimension" />
+    <!-- slide bar　里面文字上＋下padding -->
+    <attr name="contentPadding" format="dimension" />
+    <!-- slide bar　上+下+右padding -->
+    <attr name="barPadding" format="dimension" />
+    <!-- slide bar　宽度 -->
+    <attr name="barWidth" format="dimension" />
+    <declare-styleable name="AZWaveSideBarView">
+        <!-- slide bar 有效内容背景 -->
+        <attr name="backgroundColor" />
+        <!-- slide bar　描边 -->
+        <attr name="strokeColor" />
+        <!-- slide bar 文字颜色 -->
+        <attr name="textColor" />
+        <!-- slide bar　文字大小 -->
+        <attr name="textSize" />
+        <!-- slide bar 选中文字颜色 -->
+        <attr name="selectTextColor" />
+        <!-- slide bar 选中文字大小 -->
+        <attr name="selectTextSize" />
+        <!-- slide bar　选中时候提示文字颜色 -->
+        <attr name="hintTextColor" />
+        <!-- slide bar　选中时候提示文字大小 -->
+        <attr name="hintTextSize" />
+        <!-- slide bar　选中时候提示圆形半径 -->
+        <attr name="hintCircleRadius" />
+        <!-- slide bar　选中时候提示圆形颜色 -->
+        <attr name="hintCircleColor" />
+        <!-- slide bar　选中时候圆形颜色 -->
+        <attr name="highLightCircleColor"/>
+        <!-- slide bar　选中时候波浪颜色 -->
+        <attr name="waveColor" />
+        <!-- slide bar　选中时候波浪半径 -->
+        <attr name="waveRadius" />
+        <!-- slide bar　里面文字上＋下padding -->
+        <attr name="contentPadding" />
+        <!-- slide bar　上+下+右padding -->
+        <attr name="barPadding" />
+        <!-- slide bar　宽度 -->
+        <attr name="barWidth" />
+    </declare-styleable>
+
+    <declare-styleable name="AZSideBarView">
+        <!-- slide bar 有效内容背景 -->
+        <attr name="backgroundColor" />
+        <!-- slide bar　描边 -->
+        <attr name="strokeColor" />
+        <!-- slide bar　描边宽度 -->
+        <attr name="strokeWidth" />
+        <!-- slide bar 文字颜色 -->
+        <attr name="textColor" />
+        <!-- slide bar　文字大小 -->
+        <attr name="textSize" />
+        <!-- slide bar 选中文字颜色 -->
+        <attr name="selectTextColor" />
+        <!-- slide bar 选中文字大小 -->
+        <attr name="selectTextSize" />
+        <!-- slide bar　选中时候提示文字颜色 -->
+        <attr name="hintTextColor" />
+        <!-- slide bar　选中时候提示文字大小 -->
+        <attr name="hintTextSize" />
+        <!-- slide bar　选中时候提示圆形半径 -->
+        <attr name="hintCircleRadius" />
+        <attr name="hintShape" />
+        <!-- slide bar　选中时候提示圆形颜色 -->
+        <attr name="hintCircleColor" />
+        <!-- slide bar　选中时候圆形颜色 -->
+        <attr name="highLightCircleColor" />
+        <!-- slide bar　里面文字上＋下padding -->
+        <attr name="contentPadding" />
+        <!-- slide bar　上+下+右padding -->
+        <attr name="barPadding" />
+        <!-- slide bar　宽度 -->
+        <attr name="barWidth" />
+    </declare-styleable>
+    <declare-styleable name="RoundButton">
+        <!-- 背景色 -->
+        <attr name="btn_normalSolidColor" format="color"/>
+        <!--按下的背景色-->
+        <attr name="btn_pressedSolidcolor" format="color"/>
+        <!--unable背景色-->
+        <attr name="btn_unableSolidcolor" format="color"/>
+        <!--文字颜色-->
+        <attr name="btn_normalTextcolor" format="color"/>
+        <!--文字按下的颜色-->
+        <attr name="btn_pressedTextcolor" format="color"/>
+        <!--unable文字颜色-->
+        <attr name="btn_unableTextcolor" format="color"/>
+
+        <!-- 边框色 -->
+        <attr name="btn_normalStrokeColor" format="color"/>
+        <!--按下的边框颜色-->
+        <attr name="btn_pressedStokeColor" format="color"/>
+        <attr name="btn_unableStrokeColor" format="color"/>
+        <!-- 边框厚度 -->
+        <attr name="btn_normalStrokeWidth" format="dimension"/>
+        <!--按下的边框线宽-->
+        <attr name="btn_pressedStrokeWidth" format="dimension"/>
+        <!--unable-->
+        <attr name="btn_unableStrokeWidth" format="dimension"/>
+        <!-- 边框虚线长度 -->
+        <attr name="btnStrokeDashWidth" format="dimension"/>
+        <!-- 边框虚线间隙 -->
+        <attr name="btnStrokeDashGap" format="dimension"/>
+        <!-- 圆角半径，stadium 表示半径为 min(height,width) / 2-->
+        <attr name="btnCornerRadius" format="dimension">
+            <enum name="stadium" value="-1"/>
+        </attr>
+        <!-- 自动计算按下(pressed)状态颜色的系数, 值为0时不自动计算 -->
+        <attr name="btnPressedRatio" format="float"/>
+    </declare-styleable>
+
+
+
+    <!-- *公共属性* -->
+    <!--圆形-->
+    <attr name="round_as_circle" format="boolean" />
+    <!--全部圆角半径-->
+    <attr name="round_corner" format="integer|dimension" />
+    <!--针对各个角的半径-->
+    <attr name="round_corner_top_left" format="integer|dimension" />
+    <attr name="round_corner_top_right" format="integer|dimension" />
+    <attr name="round_corner_bottom_left" format="integer|dimension" />
+    <attr name="round_corner_bottom_right" format="integer|dimension" />
+
+    <!--描边颜色／半径-->
+    <attr name="stroke_color" format="color|reference" />
+    <attr name="stroke_width" format="integer|dimension" />
+
+    <!-- 是否剪裁 RCLayout 的背景 -->
+    <attr name="clip_background" format="boolean" />
+
+    <!--真正用于解析的属性-->
+    <declare-styleable name="RCAttrs">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="RCRelativeLayout">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="RCImageView">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+
+
+
+</resources>
